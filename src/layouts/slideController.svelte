@@ -16,31 +16,31 @@
     switch (e.keyCode) {
       case 38:
         //up arrow
-        slideNumber += 1;
-        console.log(slideNumber);
+        increment();
         break;
       case 40:
         //down arrow
-        slideNumber -= 1;
-        console.log(slideNumber);
+        decrement();
         break;
       case 37:
         //left arrow
-        slideNumber -= 1;
-        console.log(slideNumber);
+        decrement();
         break;
       case 39:
         //right arrow
-        slideNumber += 1;
-        console.log(slideNumber);
+        increment();
         break;
     }
   }
   function increment() {
-    slideNumber += 1;
+    if (slideNumber <= 12) {
+      slideNumber += 1;
+    }
   }
   function decrement() {
-    slideNumber -= 1;
+    if (slideNumber >= 2) {
+      slideNumber -= 1;
+    }
   }
 </script>
 

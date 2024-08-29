@@ -3,7 +3,7 @@
   import { onMount } from "svelte";
   import gsap from "gsap";
   onMount(async () => {
-    gsap.from(".title-anim", { duration: 1, y: -500, opacity: 0 });
+    gsap.from(".title-anim", { duration: 1, y: 500, opacity: 0 });
     gsap.from(".image", { duration: 1, x: 500, opacity: 0, delay: 0.3 });
     gsap.from(".textcontent", {
       duration: 1,
