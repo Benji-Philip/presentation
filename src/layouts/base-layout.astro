@@ -10,8 +10,10 @@ import Scaler from "../components/canvas.svelte";
     <meta name="generator" content={Astro.generator} />
     <title>Presentation</title>
   </head>
-  <body class=" m-0 p-0">
-    <div class="bg-black flex flex-col justify-center h-[100vh] items-center m-0 p-0 overflow-clip">
+  <body class="m-0 p-0">
+    <div
+      class="bg-black flex flex-col justify-center h-[100vh] items-center m-0 p-0 overflow-clip"
+    >
       <Scaler client:only><slot /></Scaler>
     </div>
   </body>

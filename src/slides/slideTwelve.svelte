@@ -10,12 +10,12 @@
       <div
         class=" inline-block text-9xl text-transparent bg-gradient-to-r from-[#ff0f7b] to-[#f89b29] bg-clip-text font-extrabold text-center title-anim"
       >
-        Function
+        Thank
       </div>
       <div
         class=" inline-block text-9xl text-transparent bg-gradient-to-r from-[#ff0f7b] to-[#f89b29] bg-clip-text font-extrabold text-center title-anim"
       >
-        Tests
+        You
       </div>
     </div>
   </div>

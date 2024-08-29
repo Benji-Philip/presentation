@@ -2,7 +2,6 @@
   import ETimage from "../assets/images/ET.webp";
   import { onMount } from "svelte";
   import gsap from "gsap";
-  import { linear } from "svelte/easing";
   onMount(async () => {
     gsap.from(".title-anim", { duration: 1, y: -500, opacity: 0 });
     gsap.from(".image", { duration: 1, x: 500, opacity: 0, delay: 0.3 });
