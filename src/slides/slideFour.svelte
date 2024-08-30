@@ -52,9 +52,6 @@
     </div>
   
     <div class=" text-4xl font-semibold textcontent">&bull; Avoid in :</div>
-    <div class=" text-4xl font-normal textcontent mt-[5px] ml-[60px]">
-      &bull; Ventilation
-    </div>
     <div class=" text-4xl font-normal textcontent ml-[60px]">
       &bull; Atrophic scar of tympanic membrane
     </div>

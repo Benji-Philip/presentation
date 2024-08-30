@@ -52,7 +52,7 @@
   >
     <div>&bull;</div>
     <div>
-      <b>Pharyngeal end</b> - slit-like, vertical.
+      <b>Pharyngeal end</b> - slit-like, vertical, nasopharynx
     </div>
   </div>
 
