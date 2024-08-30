@@ -27,9 +27,14 @@
 <div id="scaler" class=" flex flex-0 text-9xl m-0 p-0" style="scale:{scale}">
   <div
     id="canvas"
-    class="bg-white flex flex-0 rounded-md m-0 p-0 overflow-clip"
-    style="width:{defaultCanvasW}px; height:{defaultCanvasH}px"
+    class="bg-white flex flex-0 rounded-md m-0 p-0 overflow-clip
+    "
+    style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); min-width:{defaultCanvasW}px; height:{defaultCanvasH}px"
   >
     <slot />
   </div>
 </div>
+
+<style>
+
+</style>
